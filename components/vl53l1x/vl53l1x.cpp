@@ -85,7 +85,7 @@ VL53L1_Error VL53L1X::init() {
 
 VL53L1_Error VL53L1X::wait_for_boot() {
   // Wait for firmware to copy NVM device_state into registers
-  delayMicroseconds(1200);
+  //delayMicroseconds(1200);
 
   uint8_t device_state;
   VL53L1_Error status;
